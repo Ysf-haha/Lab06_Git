@@ -7,7 +7,7 @@ int main()
     double num1, num2, ans;
 
     cout << "***************************************" << endl;
-    cout << "This is a simple calculator." << endl;
+    cout << "This is a calculator." << endl;
     cout << "Enter #1: ";
     cin >> num1;
     cout << "Enter #2: ";
