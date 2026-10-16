@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main()
@@ -13,7 +14,7 @@ int main()
     cout << "Enter #2: ";
     cin >> num2;
     cout << "***************************************" << endl;
-    cout << "Select an operator (+ - * /): " << endl;
+    cout << "Select an operator (+ - * / ^): " << endl;
     cout << "Your operator: ";
     cin >> op;
     cout << "***************************************" << endl;
@@ -31,6 +32,9 @@ int main()
       break;
     case '/':
       cout << "The quotient is " << num1/num2<< endl;
+      break;
+    case '^':
+      cout << num1 << " raised to power " << num2 << " is " << pow(num1, num2) << endl;
       break;
     default:
       cout << "Not a valid operator"<< endl;
