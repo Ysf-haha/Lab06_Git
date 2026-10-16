@@ -5,7 +5,7 @@ Branches:
 fakebranch lies
 
 Purpose:
-Perform basic arithmetic operations on 2 numbers 890374689374689374094ty3rgh
+Perform basic arithmetic operations on 2 numbers 
 
 How to run:
 Enter the two numbers and the operator when prompted to get the answer
